@@ -102,7 +102,7 @@ def kill_process(message):
 def BOT():
     # Подключаем токен для отправки фото в телеграм бота #
     global bot
-    bot = telebot.TeleBot('2059009950:AAGR961dnTNHYS6xVuQ_tsnLwqxqO90bru0')
+    bot = telebot.TeleBot('Your_API')
 
         
     # Само сообщение и фото (отправка в бота) 
@@ -112,7 +112,7 @@ def BOT():
     Start_text = PC_name + " был запущен!"
 
     # Эта ID пользователя если что
-    chatID = 806031974
+    chatID = <Chat_ID>
 
     # Отправляем сообщение о запуске и запускаем функцию проверки сети
     Photo(chatID, Start_text)
